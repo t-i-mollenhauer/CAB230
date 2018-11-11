@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width:650px){
+	.top_bar_2 {
+		height: 30px;
+		width: 100%;
+		background-color: #4e8f3d;
+		text-align: right;
+	}
+	
+	#btnLogin {	
+			   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+	}
+	#btnHome {
+			   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+		
+	}
+	
+	#body-content {
+		height: 740px;
+		background-color: green;
+	}
+	#module {
+		height: 200px;
+		width: 100%;
+		font-family: 'Ubuntu', sans-serif;	
+	}
+	h1 {
+		margin-left: 40%;
+		padding-top: 70px;
+	}
+	input {
+		float: left;
+		margin-bottom: 30px;
+		margin-left: 43%;
+		clear: left;
+	}
+	form {
+		margin-top: 30px;
+		
+	}
+	
+.registerClass {
+	background: #white;
+	color: black;
+	width: 150px;
+	padding: 6px 15px 6px 35px;
+	transition: 500ms all ease;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+	
+	
+.registerClass:hover {
+
+	box-shadow: 12px 13px 0px rgba(16, 192, 92, 0.38),
+	-11px -14px 0px rgba(16, 192, 92, 0.28),
+	18px -24px 0px rgba(16, 192, 92, 0.34),
+	33px -6px 0px rgba(16, 192, 92, 0.28);
+}
+
+	#btnRegister {
+		
+	}
+	
+}
+
+@media screen and (min-width:0px) and (max-width:649px) {
+	.top_bar_2 {
+		height: 30px;
+		width: 100%;
+		background-color: #4e8f3d;
+		text-align: right;
+	}
+	#body-content {
+		height: 740px;
+		background-color: green;
+	}
+	#module {
+		height: 200px;
+		width: 100%;
+		font-family: 'Ubuntu', sans-serif;	
+	}
+	h1 {
+		margin-left: 35%;
+		padding-top: 70px;
+	}
+
+	input {
+		float: left;
+		margin-bottom: 30px;
+		margin-left: 30 %;
+		clear: left;
+	}
+	form {
+		margin-top: 30px;
+	}
+	
+		#btnLogin {	
+			   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+	}
+	#btnHome {
+			   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+		
+	}
+	
+	.registerClass {
+	background: black;
+	color: #ccc;
+	width: 150px;
+	padding: 6px 15px 6px 35px;
+	transition: 500ms all ease;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+	
+	
+	.registerClass:hover {
+
+	box-shadow: 12px 13px 0px rgba(16, 192, 92, 0.38),
+	-11px -14px 0px rgba(16, 192, 92, 0.28),
+	18px -24px 0px rgba(16, 192, 92, 0.34),
+	33px -6px 0px rgba(16, 192, 92, 0.28);
+}
+}

@@ -1,0 +1,14 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width:650px){
+	.top_bar_2 {
+		height: 30px;
+		width: 100%;
+		background-color: #4e8f3d;
+		text-align: right;
+	}
+	
+}

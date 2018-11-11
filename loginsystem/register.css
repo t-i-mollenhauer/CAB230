@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width:760px){
+	/*searchCurrent CSS */
+	.top_bar {
+		width: 100%;
+		height: 40%;
+		text-align: right;
+		background-color: #4e8f3d;
+	}
+	#module {
+		height: 95%;
+		background-color: green;
+	}
+	
+	#btnLogin {	
+		height: 100%;
+	}
+	#btnSignUp {
+		height: 100%;
+		
+	}
+
+}

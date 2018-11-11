@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width:650px){
+	/*searchCurrent CSS */
+	.top_bar {
+		width: 100%;
+		height: 5%;
+		text-align: right;
+		background-color: #4e8f3d;
+	}
+	
+	#btnLogOut {
+		 background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+	}
+	
+	#footer {
+	width:100%;
+	height:20px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	}
+	.test {
+		background-color: green;
+		width: 100%;
+	}
+	
+	#container {
+		
+		width: 100%;
+		height: 95%;
+		text-align: center;
+		background-color: green;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	
+	#searchSection {
+		font-family: 'Ubuntu', sans-serif;
+		height: 200px;
+		padding-top: 300px;
+	}
+	
+	#map {
+		display: inline-block;
+		margin-top: -240px;
+		height: 200px;
+		width: 400px;
+		margin-bottom: 10px;
+	}
+	
+	#txt-search {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 26px;
+	width: 230px;
+		
+	}
+	
+	/*Btn Search Button Created with http://www.bestcssbuttongenerator.com/#/38 */
+	#btnSearch {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+	background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+	background-color:#77d42a;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+}
+	#btnSearch:hover {
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a));
+		background:-moz-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:-webkit-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:-o-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:-ms-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a',GradientType=0);
+		background-color:#5cb811;
+	}
+	#btnSearch:active {
+		position:relative;
+		top:1px;
+	}
+
+	#submitSearch {
+		height: 19px;
+	}
+	
+	#submitSearch {
+		-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+		box-shadow:inset 0px 1px 0px 0px #caefab;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+		background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+		background-color:#77d42a;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #268a16;
+		display:inline-block;
+		cursor:pointer;
+		color:#306108;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:1px 10px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #aade7c;
+	}
+	
+/*End searchCurrent CSS */
+/*Registration CSS*/
+
+	#btnLogin {	
+ 
+   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+	#btnSignUp {
+		   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+		
+	}
+	
+	body {
+		min-height: 100%;
+	}
+	
+	.top_bar_2 {
+		width: 100%;
+		height: 5%;
+		text-align: right;
+		background-color: #4e8f3d;
+	}
+	
+	.body-content {
+		height: 100%;
+	}
+	
+	.module {
+		height: 200px;
+		width: 100%;
+		background-color: green;
+		
+	}
+	
+	#btnRatingSubmit {
+		-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+		box-shadow:inset 0px 1px 0px 0px #caefab;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+		background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+		background-color:#77d42a;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #268a16;
+		display:inline-block;
+		cursor:pointer;
+		color:#306108;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:1px 10px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #aade7c;
+	}
+/*End Registration CSS*/
+}
+
+@media screen and (min-width:0px) and (max-width:649px)  {
+	.top_bar {
+		width: 100%;
+		height: 5%;
+		text-align: right;
+		background-color: #4e8f3d;
+	}
+	
+	#btnLogOut {
+		 background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+	}
+	
+	#container {
+		width: 100%;
+		height: 95%;
+		text-align: center;
+		background-color: green;
+		font-family: 'Ubuntu', sans-serif;
+
+	}
+	
+	#searchSection {
+		font-family: 'Ubuntu', sans-serif;
+		height: 200px;
+		padding-top: 300px
+	}
+	
+	#map {
+		display: inline-block;
+		margin-top: -240px;
+		height: 200px;
+		width: 400px;
+		
+	}
+	
+	#txt-search {
+		border:2px solid #456879;
+		border-radius:10px;
+		height: 26px;
+		width: 230px;
+	}
+	
+	/*Btn Search Button Created with http://www.bestcssbuttongenerator.com/#/38 */
+	#btnSearch, #submitSearch {
+		-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+		box-shadow:inset 0px 1px 0px 0px #caefab;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+		background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+		background-color:#77d42a;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #268a16;
+		display:inline-block;
+		cursor:pointer;
+		color:#306108;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:2px 24px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #aade7c;
+}
+	#btnSearch:hover, #submitSearch:hover {
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a));
+		background:-moz-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:-webkit-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:-o-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:-ms-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+		background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a',GradientType=0);
+		background-color:#5cb811;
+	}
+	#btnSearch:active, #submitSearch:hover {
+		position:relative;
+		top:1px;
+	}
+
+	#submitSearch, #submitSearch:hover {
+		height: 19px;
+	}
+	/*End*/
+	#submitSearch {
+		-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+		box-shadow:inset 0px 1px 0px 0px #caefab;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+		background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+		background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+		background-color:#77d42a;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #268a16;
+		display:inline-block;
+		cursor:pointer;
+		color:#306108;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:1px 10px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #aade7c;
+	}
+	
+	#searchSecMainHeader {
+		padding-bottom: 2px;
+	}
+	
+	#searchSecSecondHeader {
+		padding-bottom: 4px;
+	}
+	
+	#btnLogin {	
+			   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+	}
+	#btnSignUp {
+			   background: #4e8f3d;
+   height: 100%;
+   width: 70px;
+   border-radius: 4px;
+   border-color: black;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+		
+	}
+
+}
+
